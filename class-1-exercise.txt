@@ -1,0 +1,16 @@
+let _result: bool; chỉ khai báo chưa đưa giá trị vào
+=> nhiều lần _result được
+=> nhưng 1 khi đã gán giá trị thì không thể thay đổi nữa
+=> muốn giống ở trên nhưng thay đổi được nhiều lần thì chỉ cần thêm mut
+
+khi đưa array vào function thì phải thêm dấu &
+para trong function cũng phải có dấu &
+chúng ta thêm mut trong TH muốn thay đổi giá trị trong array
+
+trong function thì dùng return a hoặc _result
+
+for i in 1..n {} là chạy từ 1 tới trước n 
+for i in 1..=n {} là chạy từ 1 tới = n
+https://doc.rust-lang.org/rust-by-example/flow_control/for.html
+
+
