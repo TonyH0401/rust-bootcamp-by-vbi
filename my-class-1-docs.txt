@@ -16,6 +16,7 @@
     + thay tất cả = cargo watch -x check -x run = nodemon
 
 + các biến trong rust là immutable
+
 + các biến trong rust là siêu cụ thể
     + integer loại gì, cấp phát bộ nhớ bao nhiêu
     + float cấp phát bao nhiêu, giá trị gán có phải là float
