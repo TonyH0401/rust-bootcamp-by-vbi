@@ -10,6 +10,8 @@ For the master branch, you use `git push origin master` to push your code, as pe
 
 For other branches, you will use `git push origin head` to push your code to the branch.
 
+Rust source code should use `cargo clean`, to clean up un-needed files before pushing to Github.
+
 # Warning
 
 The master branch is currently locked in the setting and cannot be changed, please ignore the remote repository warning.
