@@ -2,7 +2,11 @@
 
 This is my version of class-1 code; it includes my code, my docs and my notes. You can checkout class-1's original code [here](https://github.com/CocDap/Rust-Bootcamp-2023/tree/class-1-code-content). With class-1 slide [here](https://docs.google.com/presentation/d/1WSBMMdnsJxGguUS13v9U99FH_Z2pFTMC/edit#slide=id.p1) and class-1 video lesson [here](https://youtu.be/Udsqw_zjKLY).
 
+The content of class-1 is the basics about rust.
+
 You **must** checkout my class-1 docs for some notes that I have created while learning.
+
+You should use `cargo clean` to clean up unneeded files.
 
 # Cargo Packages
 

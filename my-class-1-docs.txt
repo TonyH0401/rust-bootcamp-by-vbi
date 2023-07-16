@@ -14,6 +14,7 @@
     + cargo build --release: build project: optimized
     + thay tất cả = cargo watch -x check -x test -x run = nodemon
     + thay tất cả = cargo watch -x check -x run = nodemon
+    + btw, chúng ta có thể dùng "cargo clean" để xóa file target (clear cache) và làm lại từ đầu
 
 + các biến trong rust là immutable
 
@@ -39,4 +40,16 @@
     + https://doc.rust-lang.org/std/vec/struct.Vec.html
     + https://doc.rust-lang.org/reference/expressions/loop-expr.html#iterator-loops
     
++ closure:
+    + closure giống như hàm lamda, 1 biến là 1 fn
+    + công thức là let x = || {}, sau đó chúng ta gọi x()
+    + closure rỗng nhưng không trả về: let x = || {}
+    + closure có parameter không trả về: let x = |para| {}
+    + closure có parameter và trả về: let x = |para| -> String {}
+    + closure có parameter và không trả về thì tương tự nên chúng ta không thực hiện
+    
++ into_iter:
+    + https://stackoverflow.com/questions/34733811/what-is-the-difference-between-iter-and-into-iter
 
++ some stackoverflow comments said something down the line of for-loop is better for small and iter is better for large
++ iter has no runtime cost but has compile cost (longer build time)
