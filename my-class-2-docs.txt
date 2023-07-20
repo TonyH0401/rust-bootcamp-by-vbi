@@ -1,0 +1,22 @@
++ length vs capacity:
+    + https://stackoverflow.com/questions/54889521/whats-the-difference-between-len-and-capacity
+
++ reference types:
+    + có 2 loại reference: immutable và mutable
+    + immutable: là chỉ có thể đọc, có thể tồn tại nhiều biến thể cùng lúc cùng reference 1 biến
+        + có ký hiệu là "&"
+    + mutable: có thể CRUD, chỉ có thể tồn tại duy nhất 1 biến thể reference 1 biến ở bất kì thời điểm nào
+        + không thể tồn tại 2 mutable cùng reference 1 biến, cùng 1 lúc
+        + có ký hiệu là "&mut"
+
++ reference rules:
+    + nhiều immutable reference được cho phép sử đọc
+    + chỉ mutable reference cho 1 giá trị nhất định trong 1 thời điểm
+    + không thể vừa có mutable reference và immutable reference tham chiếu tới cùng 1 giá trị
+        + nếu có thì phải đảm bảo trước mutable thì không có bất kì biến nào reference cả, check thông tin của lỗi E0502
+    
++ check thông tin của lỗi E0499
+
++ những biến nào ngoài scope thì sẽ không thể tồn tại được
+
++ String có vòng đời tồn tại lâu hơn &str
